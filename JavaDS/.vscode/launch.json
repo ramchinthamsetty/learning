@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DSCollections",
+            "request": "launch",
+            "mainClass": "DSCollections"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Conditions",
+            "request": "launch",
+            "mainClass": "Conditions"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test"
+        }
+    ]
+}
