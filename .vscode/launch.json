@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CollectionsArrays",
+            "request": "launch",
+            "mainClass": "CollectionsArrays"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CollectionsSets",
+            "request": "launch",
+            "mainClass": "CollectionsSets"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DSCollections",
+            "request": "launch",
+            "mainClass": "DSCollections"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Conditions",
+            "request": "launch",
+            "mainClass": "Conditions"
+        }
+    ]
+}

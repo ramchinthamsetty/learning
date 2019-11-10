@@ -22,12 +22,12 @@ public class DSCollections {
             }
            
         }
-        Integer[] intArr = new Integer[10];
+        Integer[] intArr = new Integer[10]; //Initializing Int Array
         intArr[1] = 100;
         intArr[2] = 300;
         //simple for loop
         for (int i=0;i< intArr.length;i++){
             System.out.println(intArr[i]); 
         }//for loop end
-    }
-}
+    }//Main Func end
+}//Class end
