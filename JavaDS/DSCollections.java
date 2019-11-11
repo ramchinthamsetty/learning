@@ -8,7 +8,7 @@ public class DSCollections {
         newArr[0] = "String1";
         newArr[1] = "String2";
         newArr[2] = "String3";
-        newArr[3] = "String4";
+        newArr[3] = "String4";    
         System.out.println(newArr);
         //simple for loop
         for (int i=0;i< newArr.length;i++){

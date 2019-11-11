@@ -22,6 +22,7 @@ public class Conditions{
         }
         finally{
             System.out.println("Finally here!");
+            sc.close();
         }
         
     }
