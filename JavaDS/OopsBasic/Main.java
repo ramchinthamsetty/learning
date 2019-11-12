@@ -27,6 +27,12 @@ public class Main{
 
         //calling static function - No need to create an instance of class
         StatFunc.funcname(); //Stored in Static section of Java.
+
+        //Calling Enums in Java
+        // Enums are constants 
+        Level lvl = Level.LOW;
+        System.out.println(lvl);
+
         
     }
 }
