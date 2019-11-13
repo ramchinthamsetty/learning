@@ -25,6 +25,8 @@ public class Main{
         nNodev2.speak();
         System.out.println(Node.iEmpCount);
 
+        Node3 nNode3 = new Node3("ram",798,"ram@outlook.com","Rama krishna","Chinthamsetty","Eurofins","PSE");
+        nNode3.display();
         //calling static function - No need to create an instance of class
         StatFunc.funcname(); //Stored in Static section of Java.
 

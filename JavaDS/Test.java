@@ -19,8 +19,9 @@ public class Test {
 
         //reading inputs from User, like a scanf in C
         Scanner sc = new Scanner(System.in);
-        String new1 = sc.nextLine(); //Next vs NextLine (reads complete line)
         int x = sc.nextInt(); // reading integer
+        sc.nextLine(); //To clear reading \n character before reading actual line
+        String new1 = sc.nextLine(); //Next vs NextLine (reads complete line)
         boolean bTest = sc.nextBoolean();
         System.out.println(new1);
         System.out.println(x); 
