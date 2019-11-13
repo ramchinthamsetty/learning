@@ -27,9 +27,5 @@ public class CollectionsStreams {
                 .sorted()
                 .findFirst()
                 .ifPresent(System.out::println);
-        
-                `
-
-            
     }
 }

@@ -34,7 +34,10 @@ public class Main{
         // Enums are constants 
         Level lvl = Level.LOW;
         System.out.println(lvl);
-
         
+        //Interface in Java Implementation
+        ExtendInterfaceNode eNode = new ExtendInterfaceNode();
+        eNode.display();
+        eNode.process();
     }
 }
