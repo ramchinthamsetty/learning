@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BufferReaderTest",
+            "request": "launch",
+            "mainClass": "BufferReaderTest"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CollectionsStreams",
             "request": "launch",
             "mainClass": "CollectionsStreams"
