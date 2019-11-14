@@ -20,7 +20,7 @@ public class BufferReaderTest {
             // Read line by line of CSV file
             while ((sRow = bRead.readLine()) != null) {
                 String[] saText = sRow.split(",");
-                System.out.println(sRow);
+                System.out.println(Arrays.toString(saText));
                 //
                 Arrays.stream(saText)
                 .filter(x -> x.startsWith("w")) //including lamda expressions
