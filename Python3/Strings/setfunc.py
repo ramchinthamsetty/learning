@@ -19,6 +19,15 @@ def main():
     print(s1.intersection(s2)) # Get common words from data set
     print(s1.union(s2)) #Get all words without duplicates from both data sets
 
+    #lists - Allows duplicates, Indexing, Mutable
+    #Sets - No duplocates, Mutable, Unoredered
+    #Dictionary - No duplicate keys, 
+    # Tuples - Immutable, Indexing, 
+
+    #lamda expressions
+    #iterators & generators
+    #
+
     return
 
 if __name__ == '__main__':
