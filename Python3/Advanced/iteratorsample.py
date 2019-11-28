@@ -1,3 +1,4 @@
+
 def get_even_num(x):
     if not x & 1:
         return x
