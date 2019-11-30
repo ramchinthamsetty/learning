@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-
+#in progress of my learning
 class User(BaseModel):
     id : int
     name : str

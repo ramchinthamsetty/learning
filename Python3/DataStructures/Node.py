@@ -6,6 +6,7 @@ class Node:
         self.next = None
     
     def get_data(self):
+        # Returns data value of the Node
         return self.data
     
     def get_next(self):
