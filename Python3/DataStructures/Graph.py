@@ -38,7 +38,6 @@ class Graph:
     def get_vertices(self):
         """
         - In - self.graph object.
-        
         @return - List of veritices of a graph
         """
         list1 = []
@@ -67,6 +66,3 @@ graph = Graph()
 print(graph.get_vertices())
 print(graph.get_edges())
 print(graph.get_path_cost(0, 1))
-
-import json
-json.loads()
