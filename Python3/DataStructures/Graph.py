@@ -27,6 +27,7 @@ class Graph:
     def get_edges(self):
         """
          - Looping all the edges.
+         @return - List of tuples with edges/connections between nodes.
         """
         edges = []
         for key, value1 in self.graph.items():
@@ -66,3 +67,6 @@ graph = Graph()
 print(graph.get_vertices())
 print(graph.get_edges())
 print(graph.get_path_cost(0, 1))
+
+import json
+json.loads()
