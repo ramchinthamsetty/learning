@@ -14,7 +14,7 @@ Continous Knowledge is import for Growth. Sharing the knowledge is important.
     1. Strings
     2. Collections
     3. OOPS
-    4. Functional Programming
-    5. Micro Services
-    6. NoSQL DB
-
+    4. Data Structures.
+    5. Functional Programming
+    6. Micro Services
+    7. NoSQL DB (Mongo, Influx)
