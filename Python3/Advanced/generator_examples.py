@@ -20,6 +20,9 @@ while 1:
     
     
 iter2 = iter(simple_list)
-
+'''
+Demo of itertools libraries here
+count function - to increment the range of values to start with value by incrementing by value 5.
+'''
 even_values = it.count(start=1,step=5)
 print(list(next(even_values) for _ in range(5)))
