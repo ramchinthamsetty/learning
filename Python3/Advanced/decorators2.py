@@ -45,10 +45,14 @@ def simple_func3(x):
 '''    
 func_var = simple_func3(4) # simple_func() returns the interval reference of inside_func
 print(func_var(5)) # Calling inside_func with value
-
+'''
+Decorator function executes before main starts execution
+'''
 def trace(f):
+    print("I was called here to return internal reference of g")
     def g(x):
         print(f.__name__, x)
+        print("I am executing this time!")
         return f(x)
     return g
 
@@ -74,9 +78,7 @@ def difference(x):
     return x-x
 
 
-print(square(4))
-print(add(4))
-print(difference(10))
+
 
 '''
 Lets try some here as it is tasting good :)
@@ -98,8 +100,18 @@ def square2(x):
 def sum_of_squares(x,y):    
     return square2(x)+square2(y)
 
-print(sum_of_squares(4,9))
 
+
+def main():
+    print("Checking if decorators execution is done at import time or not")
+    print(sum_of_squares(4,9))
+    print(square(4))
+    print(add(4))
+    print(difference(10))
+
+if __name__ == '__main__':
+    main()
+    
 
 
 
