@@ -24,7 +24,13 @@ class MathOps(Math):
         @return - Returns the muplication output value.
         '''    
         return x * y
-    
+
+# Instantiating the Concrete Class inherited from Abstract Class
+#OPen Close Principle - Open for Extension, Closed for Modification   
+matho = MathOps()
+result_o = matho.multiply_func(2,3)
+print(result_o) 
+
     
     
     
