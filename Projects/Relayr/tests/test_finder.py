@@ -11,7 +11,8 @@ class FinderTests(unittest.TestCase):
     def test_space_contained_strings(self):
         pass
     
-    
+    def test_unprintable_strings(self):
+        pass
         
     
     
