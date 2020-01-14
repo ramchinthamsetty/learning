@@ -1,9 +1,25 @@
 import unittest
-
+from  Relayr.src.Finder import Finder
 class FinderTests(unittest.TestCase):
     
     def setUp(self):
-        pass
+        self.alphan_strings = [
+                        "asd",
+                        "1asd",
+                        "asdf",
+                        "sad",
+                        "das",
+                        "1234asdf"
+                        ]
+        self.special_strings = [
+                        "@!123asdf",
+                        "@123",
+                        "sad sad",
+                         "123asd 123asd"
+                                ]
+        self.alphan_obj = Finder(self.alphan_strings)
+        self.special_obj = Finder(self.special_strings)
+        
     
     def tearDown(self):
         pass
@@ -12,7 +28,12 @@ class FinderTests(unittest.TestCase):
         """
         Test cases to test alpha numeric characters
         """
-        pass
+        aplha_string = "asdf"
+        alphan_string = "1asd"
+        alpha_string1 = "den"
+        aplhan_string1 = "12asd"
+        self.assertEqual(self.alphan_obj.find_match(aplha_string), ["asd","sad","das"])
+        
     
     def test_special_strings(self):
         """
