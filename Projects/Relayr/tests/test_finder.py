@@ -1,5 +1,6 @@
 import unittest
-from  Relayr.src.Finder import Finder
+
+from finder.Finder import Finder
 class FinderTests(unittest.TestCase):
     
     def setUp(self):
