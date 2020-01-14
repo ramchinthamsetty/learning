@@ -1,5 +1,6 @@
 import unittest
 from findstring.finder import Finder
+
 class FinderTests(unittest.TestCase):
     
     def setUp(self):
